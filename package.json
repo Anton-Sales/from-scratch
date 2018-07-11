@@ -1,0 +1,18 @@
+{
+  "name": "fromScratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "anton-sales <anton.arus@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "knex": "knex"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "knex": "^0.15.0",
+    "nodemon": "^1.18.0",
+    "sqlite3": "^4.0.1"
+  }  
+}
